@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Содержимое каталога</title>
+		<style>
+			body{
+				background: #F5F5F5;
+				min-height: 660px;
+			}
+			#field{ 
+			    width:  350px; 
+			    font-family: Open Sans;
+			}
+			input[type="submit"]{
+				height: 30px;
+			}
+			form{
+				width:  445px;
+				height: 95px;
+				position: absolute;
+				left: 50%;
+				top: 50%;
+				margin-left: -250px;
+				margin-top: -155px;
+				border: 2px solid #404040;
+				border-radius: 3px;
+				padding: 30px 15px;
+				background-color: #EEEEEE;
+			}
+			p{
+				padding-left: 40px;
+			}
+		</style>
+	</head>
+ 	<body>
+ 		
+ 		<form action="script.php" method="post">
+ 			<p>Введите полный путь к файлу:</p>
+			<input type="text" name="file" id="field" placeholder="/home/doc/551005/Slizhevskiy_Artem/result.txt">
+			<input type="submit" name="search" value="Открыть">
+			
+  		</form>
+ 	</body>
+</html>
